@@ -1,17 +1,12 @@
 import Card from './Card.jsx';
 import Button from './button.jsx';
 import Student from './Student.jsx';
+import UserGreeting from './UserGreeting.jsx';
 
 function App() {
-
+  console.log(<UserGreeting isLoggedIn={true} />)
   return(
     <>
-      <Student name="Spongebob" age="20" isStudent={true}/>
-      <Student name="Patrick" age={42} isStudent={false}/>
-      <Student name="Squidward" age={50} isStudent={false}/>
-      <Student name="Sandy" age={27} isStudent={true}/>
-      <Student/>
-      
     </>
   )
 }
